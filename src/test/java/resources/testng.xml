@@ -1,0 +1,13 @@
+<suite name="Suite">
+
+    <listeners>
+        <listener class-name="listeners.TestListener"/>
+    </listeners>
+
+    <test name="Tests">
+        <classes>
+            <class name="tests.IncidentSyncTest"/>
+        </classes>
+    </test>
+
+</suite>
